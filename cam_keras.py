@@ -16,7 +16,8 @@ from PIL import Image
 from tensorflow.python.keras import applications
 from tensorflow.python.keras.preprocessing.image import load_img, img_to_array 
 from tensorflow.python.keras import backend as K
-from tensorflow.python.keras.applications.resnet50 import preprocess_input
+#from tensorflow.python.keras.applications.resnet50 import preprocess_input
+from keras.applications.resnet50 import preprocess_input
 
 LABELS_URL = 'https://s3.amazonaws.com/outcome-blog/imagenet/labels.json'
 IMG_URL = 'http://media.mlive.com/news_impact/photo/9933031-large.jpg'
